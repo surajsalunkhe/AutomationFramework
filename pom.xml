@@ -11,10 +11,9 @@
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-server</artifactId>
-            <version>3.5.3</version>
+            <artifactId>selenium-java</artifactId>
+            <version>3.12.0</version>
         </dependency>
-
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
@@ -22,6 +21,7 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/log4j -->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
@@ -118,7 +118,6 @@
             <artifactId>guava</artifactId>
             <version>22.0</version>
         </dependency>
-
 
         <dependency>
             <groupId>log4j</groupId>
